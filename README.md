@@ -19,14 +19,13 @@ Usage
 
 Everywhere in your Jekyll site that you had this before:
 
-    {{ page.title }}
+    {{ post.title }}          or  {{ page.title }}
 
 Change it to say this instead:
 
-    {{ page.title | smart }}
+    {{ post.title | smart }}  or  {{ page.title | smart }}
 
-Obviously it works for any text that is enclosed in `{{ ... | smart }}`, not
-just `page.title`.
+Obviously it works for any text that is enclosed in `{{ ... | smart }}`.
 
 What about GitHub Pages?
 ========================
