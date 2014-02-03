@@ -48,4 +48,4 @@ This is built into the `redcarpet` markdown processor.  Put this in your
 
     markdown: redcarpet
     redcarpet:
-      extension: ["smart"]
+      extensions: ["smart"]
